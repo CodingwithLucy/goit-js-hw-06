@@ -1,13 +1,13 @@
 const ingredients = [
-  'Potatoes',
-  'Mushrooms',
-  'Garlic',
-  'Tomatos',
-  'Herbs',
-  'Condiments',
+  "Potatoes",
+  "Mushrooms",
+  "Garlic",
+  "Tomatos",
+  "Herbs",
+  "Condiments",
 ];
 
-const ulItem = document.getElementById('ingredients');
+const ulItem = document.getElementById("ingredients");
 
 ingredients.forEach((ingredient) => {
   const liItem = document.createElement("li");
