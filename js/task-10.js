@@ -33,6 +33,7 @@ function createBoxes(amount) {
 }
 
 function destroyBoxes() {
+  input.value = '';
   while (boxes.firstChild) {
     boxes.removeChild(boxes.firstChild);
   }
